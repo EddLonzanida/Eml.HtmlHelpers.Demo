@@ -1,7 +1,7 @@
 # [Eml.HtmlHelpers](https://preview.nuget.org/packages/Eml.HtmlHelpers/)
 Contains CheckBoxFor(an alternative for RememberMe checkbox in MVC scaffolding) and IsActive(for keeping the active controller in-sync with the header menu).
 
-## A. Usage - CheckBoxFor    
+## A. Usage - ***CheckBoxFor***    
 ```xml
     @using Eml.HtmlHelpers.Checkbox
 
@@ -21,7 +21,7 @@ Contains CheckBoxFor(an alternative for RememberMe checkbox in MVC scaffolding) 
                 ));
  ```
 
-## B. Usage - IsActive    
+## B. Usage - ***IsActive***    
 ```xml
     @using Eml.HtmlHelpers.IsActive
 
