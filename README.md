@@ -2,6 +2,7 @@
 Contains CheckBoxFor(an alternative for RememberMe checkbox in MVC scaffolding) and IsActive(for keeping the active controller in-sync with the header menu).
 
 ## A. Usage - ***CheckBoxFor***    
+
 ```xml
     @using Eml.HtmlHelpers.Checkbox
 
@@ -13,6 +14,7 @@ Contains CheckBoxFor(an alternative for RememberMe checkbox in MVC scaffolding) 
  ```
 
 ### Add ***eml-checkbox.css*** into your BundleConfig.cs
+* Css credit to the [owner](https://bootsnipp.com/snippets/featured/animated-radios-amp-checkboxes-nojs).
 ```javascript
     bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/bootstrap.css",
@@ -20,6 +22,7 @@ Contains CheckBoxFor(an alternative for RememberMe checkbox in MVC scaffolding) 
                 "~/Content/eml-checkbox.css"
                 ));
  ```
+
 
 ## B. Usage - ***IsActive***    
 ```xml
